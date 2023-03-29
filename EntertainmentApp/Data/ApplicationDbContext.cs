@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EntertainmentApp.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace EntertainmentApp.Data
 {
@@ -8,5 +9,6 @@ namespace EntertainmentApp.Data
         {
 
         }
+        public DbSet<Category> Categories { get; set; }
     }
 }
