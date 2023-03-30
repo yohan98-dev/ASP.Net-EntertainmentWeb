@@ -61,4 +61,4 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
-ASP.Net-EntertainmentWeb/EntertainmentApp/wwwroot/* linguist-vendored
+EntertainmentApp/wwwroot/* linguist-vendored
